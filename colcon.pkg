@@ -1,5 +1,5 @@
 {
-    "name": "custom_pkg",
+    "name": "tts_node",
     "cmake-args":[
         "-G Ninja"
     ]
