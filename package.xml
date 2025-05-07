@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>custom_pkg</name>
+  <name>tts</name>
   <version>3.11.5</version>
   <description>
-  Custom Pkg template
+  ROS2 TTS Node that calls TTS engine by script
   </description>
 
   <maintainer email="example@example.com">example</maintainer>

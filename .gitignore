@@ -46,3 +46,5 @@ output/
 # Pixi artifacts
 pixi.lock
 .pixi/
+models/
+piper/

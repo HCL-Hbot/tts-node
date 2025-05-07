@@ -22,13 +22,12 @@ ros-jazzy-desktop = "*"
 colcon-common-extensions = "*"
 rosdep = "*"
 conda-build = ">=25.1.2,<26"
-conda-verify = ">=3.4.2,<4"
 rattler-build = "*"
 
 
 [target.linux-64.dependencies]
 python-devtools = "*"         # Optional but useful
-python = "*"            # This is critical for CMake to find Python
+python = "3.12.*"            # This is critical for CMake to find Python
 pybind11 = "*"                # Optional, if you work with bindings
 numpy = "*"
 lttng-ust = "*"
